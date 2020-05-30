@@ -5,14 +5,18 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
+// @ts-ignore
 import logo from './logo.svg';
 import './App.css';
+import TopBar from './components/TopBar/TopBar';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
+      <TopBar />
       <Switch>
-        <Route path="/home">
+        <Route path="/app">
           {' '}
           <div className="App">
             <header className="App-header">
@@ -31,7 +35,10 @@ function App() {
             </header>
           </div>
         </Route>
-        <Redirect from="/" to="/" />
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Redirect from="/" to="/home" />
       </Switch>
     </Router>
   );
