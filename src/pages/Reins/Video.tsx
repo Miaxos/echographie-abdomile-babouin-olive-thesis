@@ -4,6 +4,7 @@ import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title';
 import { Spacing } from '../../components/Spacing';
+import NextPrevLinks from '../../components/NextPrevLinks';
 
 const style = css`
   display: flex;
@@ -135,6 +136,13 @@ const ReinsVideo = () => {
             départ de l’aorte.
           </p>
         </div>
+        <NextPrevLinks
+          next={
+            <Link to="/urinaire/reins/data" className={linkStyle}>
+              Donnée échographiques ->
+            </Link>
+          }
+        />
       </div>
     </div>
   );
