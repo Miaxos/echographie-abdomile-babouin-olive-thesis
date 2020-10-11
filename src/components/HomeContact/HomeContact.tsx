@@ -23,7 +23,9 @@ const nameStyle = css`
   color: ${RED};
 `;
 
-const titleStyle = css``;
+const titleStyle = css`
+  marign-top: 1px;
+`;
 const contactStyle = css`
   margin-top: 5px;
   display: flex;
@@ -62,7 +64,7 @@ const HomeContact = () => {
     <div className={contactContainer}>
       <Contact
         name="Dr. Maud Martin"
-        title="Auteur de la thèse"
+        title="Autrice de la thèse"
         mail="maud.martin@gmail.com"
       />
     </div>
