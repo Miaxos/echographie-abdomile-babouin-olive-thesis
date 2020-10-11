@@ -14,6 +14,9 @@ import Urinaire from './pages/Urinaire';
 import ReinsVideo from './pages/Reins/Video';
 import ReinsData from './pages/Reins/Data';
 import VessieVideo from './pages/Vessie/Video';
+import VessieData from './pages/Vessie/Data';
+import GlandesVideo from './pages/Glandes/Video';
+import GlandesData from './pages/Glandes/Data';
 
 function App() {
   return (
@@ -50,6 +53,15 @@ function App() {
         </Route>
         <Route path="/urinaire/vessie/video">
           <VessieVideo />
+        </Route>
+        <Route path="/urinaire/vessie/data">
+          <VessieData />
+        </Route>
+        <Route path="/urinaire/glandes/video">
+          <GlandesVideo />
+        </Route>
+        <Route path="/urinaire/glandes/data">
+          <GlandesData />
         </Route>
         <Route path="/urinaire">
           <Urinaire />

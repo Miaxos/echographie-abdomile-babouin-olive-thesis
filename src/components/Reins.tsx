@@ -12,6 +12,7 @@ const style = css`
 
 const styleImage = css`
   width: 100%;
+  height: 100%;
 `;
 
 const ReinsImage = () => {

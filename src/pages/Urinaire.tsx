@@ -104,7 +104,10 @@ const Urinaire = () => {
                   </Link>
                 </div>
                 <div className={listSection}>
-                  <Link to="/urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/reins/atlas"
+                    className={linkStyleWithEffect}
+                  >
                     Atlas
                   </Link>
                 </div>
@@ -127,29 +130,44 @@ const Urinaire = () => {
                   </Link>
                 </div>
                 <div className={listSection}>
-                  <Link to="urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/vessie/atlas"
+                    className={linkStyleWithEffect}
+                  >
                     Atlas
                   </Link>
                 </div>
                 <div className={listSection}>
-                  <Link to="urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/vessie/data"
+                    className={linkStyleWithEffect}
+                  >
                     Données échographique
                   </Link>
                 </div>
 
                 <div className={titleSection}>Glande surénales</div>
                 <div className={listSection}>
-                  <Link to="urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/glandes/video"
+                    className={linkStyleWithEffect}
+                  >
                     Examen échographique (Vidéo)
                   </Link>
                 </div>
                 <div className={listSection}>
-                  <Link to="urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/glandes/atlas"
+                    className={linkStyleWithEffect}
+                  >
                     Atlas
                   </Link>
                 </div>
                 <div className={listSection}>
-                  <Link to="urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/glandes/data"
+                    className={linkStyleWithEffect}
+                  >
                     Données échographique
                   </Link>
                 </div>

@@ -69,8 +69,8 @@ const ReinsVideo = () => {
     <div className={style}>
       <div className={content}>
         <Title>
-          Examen échographique de l'appareil urinaire du babouin olive (Papio
-          anubis)
+          Examen échographique de l'appareil urinaire du babouin olive{' '}
+          <i>(Papio anubis)</i>
         </Title>
         <div className={ariane}>
           <Link to="/" className={linkStyle}>
@@ -80,7 +80,7 @@ const ReinsVideo = () => {
           <Link to="urinaire" className={linkStyle}>
             Examing échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Vidéo
+          / Vidéo des reins
         </div>
         <Spacing.Height.S />
         <div className={remarque}>
