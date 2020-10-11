@@ -13,6 +13,7 @@ import Home from './pages/Home';
 import Urinaire from './pages/Urinaire';
 import ReinsVideo from './pages/Reins/Video';
 import ReinsData from './pages/Reins/Data';
+import VessieVideo from './pages/Vessie/Video';
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
         </Route>
         <Route path="/urinaire/reins/data">
           <ReinsData />
+        </Route>
+        <Route path="/urinaire/vessie/video">
+          <VessieVideo />
         </Route>
         <Route path="/urinaire">
           <Urinaire />

@@ -119,7 +119,10 @@ const Urinaire = () => {
 
                 <div className={titleSection}>Vessie</div>
                 <div className={listSection}>
-                  <Link to="urinaire" className={linkStyleWithEffect}>
+                  <Link
+                    to="/urinaire/vessie/video"
+                    className={linkStyleWithEffect}
+                  >
                     Examen échographique (Vidéo)
                   </Link>
                 </div>
