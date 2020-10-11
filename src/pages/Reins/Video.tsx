@@ -17,7 +17,6 @@ const content = css`
   display: flex;
   flex-direction: column;
   max-width: 1000px;
-  flex: 1;
 `;
 
 const grid = css`
@@ -28,7 +27,6 @@ const grid = css`
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  flex: 1;
 `;
 
 const remarque = css`
@@ -40,7 +38,6 @@ const remarque = css`
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  flex: 1;
 `;
 
 const explication = css`
@@ -50,7 +47,6 @@ const explication = css`
   background-color: #f5f5f5;
   padding: 5px;
   border-radius: 5px;
-  flex: 1;
 `;
 
 const paragraph = css`
@@ -139,7 +135,7 @@ const ReinsVideo = () => {
         <NextPrevLinks
           next={
             <Link to="/urinaire/reins/data" className={linkStyle}>
-              Donnée échographiques ->
+              Données échographiques ->
             </Link>
           }
         />

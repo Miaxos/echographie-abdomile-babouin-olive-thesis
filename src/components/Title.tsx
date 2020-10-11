@@ -3,7 +3,6 @@ import React from 'react';
 import { css } from 'linaria';
 
 const style = css`
-  flex: 1;
   min-width: 500px;
   padding: 5px;
   padding-left: 0px;
