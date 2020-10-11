@@ -4,10 +4,6 @@ import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../components/Title';
 import ReinsImage from '../components/Reins';
-import {
-  VerticalLineSeparator,
-  HorizontalLineSeparator,
-} from '../components/LineSeparator';
 import { Spacing } from '../components/Spacing';
 
 const style = css`
@@ -47,10 +43,6 @@ const descriptif = css`
   border-radius: 5px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-`;
-
-const selectOrgane = css`
-  margin-bottom: 50px;
 `;
 
 const linkStyle = css`

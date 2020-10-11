@@ -43,12 +43,6 @@ const explication = css`
   flex: 1;
 `;
 
-const paragraph = css`
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-`;
-
 const linkStyle = css`
   color: #75052d;
 `;
