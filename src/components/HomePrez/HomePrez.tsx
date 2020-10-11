@@ -41,8 +41,8 @@ const HomePrez = () => {
       </div>
       <p className={paragraph}>
         Dans le cadre d’une thèse d’exercice vétérinaire, une étude
-        échographique sur l’abdomen du babouin olive <i>(Papio anubis)</i> a été menée
-        sur un groupe mixte de babouin olive au centre de primatologie de
+        échographique sur l’abdomen du babouin olive <i>(Papio anubis)</i> a été
+        menée sur un groupe mixte de babouin olive au centre de primatologie de
         Rousset. Cette interface interactive regroupe les différentes techniques
         d’examen échographique ainsi que les images et les mesures
         échographiques obtenues. Ce site constituera, nous l’espérons, un outil
