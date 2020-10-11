@@ -25,7 +25,7 @@ const contact = css`
 const HomeSeparator = () => {
   return (
     <div className={separator}>
-      <div className={contact}>Contact</div>
+      <div className={contact}>Contacts</div>
     </div>
   );
 };
