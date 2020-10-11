@@ -53,23 +53,37 @@ const HomePrez = () => {
         title="Abdomen complet"
         subtitle="Machin truc much"
         image={abdomen}
+        to="abdomen"
       />
       <HomeBadge
         title="Appareil urinaire et glandes surrénales"
         subtitle="Examen échographique de l'appareil urinaire"
         image={reins}
+        to="urinaire"
       />
       <HomeBadge
         title="Appareil extra-digestif"
         subtitle="machin"
         image={extra}
+        to="urinaire"
       />
-      <HomeBadge title="Appareil digestif" subtitle="machin" image={digestif} />
-      <HomeBadge title="Appareil génital mâle" subtitle="blbl" image={agm} />
+      <HomeBadge
+        title="Appareil digestif"
+        subtitle="machin"
+        image={digestif}
+        to="urinaire"
+      />
+      <HomeBadge
+        title="Appareil génital mâle"
+        subtitle="blbl"
+        image={agm}
+        to="urinaire"
+      />
       <HomeBadge
         title="Appareil génital femelle"
         subtitle="delkerlfekjr"
         image={agf}
+        to="urinaire"
       />
     </div>
   );

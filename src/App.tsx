@@ -10,6 +10,9 @@ import logo from './logo.svg';
 import './App.css';
 import TopBar from './components/TopBar/TopBar';
 import Home from './pages/Home';
+import Urinaire from './pages/Urinaire';
+import ReinsVideo from './pages/Reins/Video';
+import ReinsData from './pages/Reins/Data';
 
 function App() {
   return (
@@ -37,6 +40,15 @@ function App() {
         </Route>
         <Route path="/home">
           <Home />
+        </Route>
+        <Route path="/urinaire/reins/video">
+          <ReinsVideo />
+        </Route>
+        <Route path="/urinaire/reins/data">
+          <ReinsData />
+        </Route>
+        <Route path="/urinaire">
+          <Urinaire />
         </Route>
         <Redirect from="/" to="/home" />
       </Switch>

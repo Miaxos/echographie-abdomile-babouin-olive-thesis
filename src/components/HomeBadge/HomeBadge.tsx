@@ -2,12 +2,14 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { css } from 'linaria';
 import { Button } from 'reakit/Button';
+import { Link, useHistory } from 'react-router-dom';
 import { LIGHT_RED } from '../../styles/color';
 
 type Props = {
   title: string;
   subtitle?: string;
   image: any;
+  to: string;
 };
 
 const badgeContainer = css`
@@ -42,28 +44,39 @@ const resetButton = css`
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
   -webkit-appearance: none;
-`;
-
-const styleImage = css`
   border: 2px solid #75052d;
   border-radius: 5px;
-  width: 65px;
-  height: 65px;
   &:hover {
+    background-color: ${LIGHT_RED};
+    cursor: pointer;
+  }
+  &:focus {
     background-color: ${LIGHT_RED};
     cursor: pointer;
   }
 `;
 
-const HomeBadge = ({ title, subtitle, image }: Props) => {
+const linkStyle = css`
+  color: #75052d;
+`;
+
+const styleImage = css`
+  width: 65px;
+  height: 65px;
+`;
+
+const HomeBadge = ({ title, subtitle, image, to }: Props) => {
+  const history = useHistory();
   return (
     <div className={badgeContainer}>
-      <Button className={resetButton}>
+      <Button className={resetButton} onClick={() => history.push(to)}>
         <img src={image} alt="badge-alt" className={styleImage} />
       </Button>
       <div className={badgeDescription}>
         <div className={badgeTitle}>
-          <b>{title}</b>
+          <Link to={to} className={linkStyle}>
+            <b>{title}</b>
+          </Link>
         </div>
         {subtitle && <div className={badgeSubTitle}>{subtitle}</div>}
       </div>

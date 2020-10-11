@@ -4,6 +4,7 @@ import { css } from 'linaria';
 import HomePrez from '../components/HomePrez/HomePrez';
 import HomeImage from '../components/HomeImage/HomeImage';
 import HomeSeparator from '../components/HomeSeparator/HomeSeparator';
+import HomeContact from '../components/HomeContact/HomeContact';
 
 const style = css`
   display: flex;
@@ -25,6 +26,7 @@ const Home = () => {
         <HomePrez />
         <HomeImage />
         <HomeSeparator />
+        <HomeContact />
       </div>
     </div>
   );
