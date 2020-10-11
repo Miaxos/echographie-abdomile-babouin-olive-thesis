@@ -3,8 +3,8 @@ import React from 'react';
 import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../components/Title';
-import ReinsImage from '../components/Reins';
 import { Spacing } from '../components/Spacing';
+import ExtraDigestifImage from '../components/ExtraDigestif';
 
 const style = css`
   display: flex;
@@ -74,30 +74,30 @@ const ariane = css`
   margin-bottom: 5px;
 `;
 
-const Urinaire = () => {
+const ExtraDigestif = () => {
   return (
     <div className={style}>
       <div className={content}>
         <Title>
-          Examen échographique de l'appareil urinaire du babouin olive{' '}
+          Examen échographique de l'appareil extra-digestif du babouin olive{' '}
           <i>(Papio anubis)</i>
         </Title>
         <div className={ariane}>
           <Link to="/" className={linkStyle}>
             Accueil
           </Link>{' '}
-          / Examing échographique de l'appareil urinaire du babouin olive
+          / Examing échographique de l'appareil extra-digestif du babouin olive
         </div>
         <Spacing.Height.S />
         <div className={grid}>
-          <ReinsImage />
+          <ExtraDigestifImage />
           <div className={grid}>
             <div>
               <div className={descriptif}>
-                <div className={titleSection}>Reins</div>
+                <div className={titleSection}>Rate</div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/reins/video"
+                    to="/extradigestif/rate/video"
                     className={linkStyleWithEffect}
                   >
                     Examen échographique (Vidéo)
@@ -105,7 +105,7 @@ const Urinaire = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/reins/atlas"
+                    to="/extradigestif/rate/atlas"
                     className={linkStyleWithEffect}
                   >
                     Atlas
@@ -113,17 +113,17 @@ const Urinaire = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/reins/data"
+                    to="/extradigestif/rate/data"
                     className={linkStyleWithEffect}
                   >
                     Données échographique
                   </Link>
                 </div>
 
-                <div className={titleSection}>Vessie</div>
+                <div className={titleSection}>Pancréas</div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/vessie/video"
+                    to="/extradigestif/pancreas/video"
                     className={linkStyleWithEffect}
                   >
                     Examen échographique (Vidéo)
@@ -131,7 +131,7 @@ const Urinaire = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/vessie/atlas"
+                    to="/extradigestif/pancreas/atlas"
                     className={linkStyleWithEffect}
                   >
                     Atlas
@@ -139,17 +139,17 @@ const Urinaire = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/vessie/data"
+                    to="/extradigestif/pancreas/data"
                     className={linkStyleWithEffect}
                   >
                     Données échographique
                   </Link>
                 </div>
 
-                <div className={titleSection}>Glande surénales</div>
+                <div className={titleSection}>Foie</div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/glandes/video"
+                    to="/extradigestif/foie/video"
                     className={linkStyleWithEffect}
                   >
                     Examen échographique (Vidéo)
@@ -157,7 +157,7 @@ const Urinaire = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/glandes/atlas"
+                    to="/extradigestif/foie/atlas"
                     className={linkStyleWithEffect}
                   >
                     Atlas
@@ -165,7 +165,7 @@ const Urinaire = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/urinaire/glandes/data"
+                    to="/extradigestif/foie/data"
                     className={linkStyleWithEffect}
                   >
                     Données échographique
@@ -180,4 +180,4 @@ const Urinaire = () => {
   );
 };
 
-export default Urinaire;
+export default ExtraDigestif;

@@ -17,6 +17,9 @@ import VessieVideo from './pages/Vessie/Video';
 import VessieData from './pages/Vessie/Data';
 import GlandesVideo from './pages/Glandes/Video';
 import GlandesData from './pages/Glandes/Data';
+import ExtraDigestif from './pages/ExtraDigestif';
+import PancreasVideo from './pages/Pancreas/Video';
+import PancreasData from './pages/Pancreas/Data';
 
 function App() {
   return (
@@ -65,6 +68,15 @@ function App() {
         </Route>
         <Route path="/urinaire">
           <Urinaire />
+        </Route>
+        <Route path="/extradigestif/pancreas/video">
+          <PancreasVideo />
+        </Route>
+        <Route path="/extradigestif/pancreas/data">
+          <PancreasData />
+        </Route>
+        <Route path="/extradigestif">
+          <ExtraDigestif />
         </Route>
         <Redirect from="/" to="/home" />
       </Switch>

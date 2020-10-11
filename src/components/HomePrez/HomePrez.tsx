@@ -65,7 +65,7 @@ const HomePrez = () => {
         title="Appareil extra-digestif"
         subtitle="machin"
         image={extra}
-        to="urinaire"
+        to="extradigestif"
       />
       <HomeBadge
         title="Appareil digestif"
