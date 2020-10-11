@@ -80,7 +80,7 @@ const PancreasVideo = () => {
           <Link to="/extradigestif" className={linkStyle}>
             Examing échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
-          / Vidéo glandes pancréas
+          / Vidéo pancréas
         </div>
         <Spacing.Height.S />
         <div className={remarque}>
@@ -95,7 +95,7 @@ const PancreasVideo = () => {
             title="video extradigestif"
             width="1148"
             height="500"
-            src="https://www.youtube.com/embed/U_yNPNOLvl0?start=13"
+            src="https://www.youtube.com/embed/U_yNPNOLvl0?start=103"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

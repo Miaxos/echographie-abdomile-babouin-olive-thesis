@@ -20,6 +20,7 @@ import GlandesData from './pages/Glandes/Data';
 import ExtraDigestif from './pages/ExtraDigestif';
 import PancreasVideo from './pages/Pancreas/Video';
 import PancreasData from './pages/Pancreas/Data';
+import RateVideo from './pages/Rate/Video';
 
 function App() {
   return (
@@ -68,6 +69,9 @@ function App() {
         </Route>
         <Route path="/urinaire">
           <Urinaire />
+        </Route>
+        <Route path="/extradigestif/rate/video">
+          <RateVideo />
         </Route>
         <Route path="/extradigestif/pancreas/video">
           <PancreasVideo />

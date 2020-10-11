@@ -165,6 +165,14 @@ const PancreasData = () => {
             crâniale sont mesurés au niveau de la tête du pancréas, dans sa
             coupe transversale.
           </p>
+          <p className={paragraph}>
+            Le diamètre de la veine splénique est mesuré au niveau de sa
+            confluence avec la veine mésentérique crâniale.
+          </p>
+          <p className={paragraph}>
+            Il existe une différence significative d’épaisseur du corps du
+            pancréas selon le genre sexuel (mâle > femelle).
+          </p>
         </div>
       </div>
     </div>
