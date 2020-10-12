@@ -92,7 +92,7 @@ const PancreasAtlas = () => {
           <Link to="extradigestif" className={linkStyle}>
             Examen échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
-          / Alas pancréas
+          / Atlas pancréas
         </div>
         <Spacing.Height.M />
         <div className={explication}>

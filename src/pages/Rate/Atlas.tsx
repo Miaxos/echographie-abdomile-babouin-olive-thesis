@@ -92,7 +92,7 @@ const RateAtlas = () => {
           <Link to="extradigestif" className={linkStyle}>
             Examen échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
-          / Alas rate
+          / Atlas rate
         </div>
         <Spacing.Height.M />
         <div className={explication}>

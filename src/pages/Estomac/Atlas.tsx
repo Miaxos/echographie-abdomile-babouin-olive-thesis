@@ -92,7 +92,7 @@ const EstomacAtlas = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Alas estomac
+          / Atlas estomac
         </div>
         <Spacing.Height.M />
         <div className={explication}>

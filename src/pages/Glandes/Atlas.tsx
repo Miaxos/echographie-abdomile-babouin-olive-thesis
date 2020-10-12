@@ -92,7 +92,7 @@ const GlandesAtlas = () => {
           <Link to="urinaire" className={linkStyle}>
             Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Alas glandes surrénales
+          / Atlas glandes surrénales
         </div>
         <Spacing.Height.M />
         <div className={explication}>

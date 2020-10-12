@@ -92,7 +92,7 @@ const CaecumAtlas = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Alas jonction iléocæcale et cæcum
+          / Atlas jonction iléocæcale et cæcum
         </div>
         <Spacing.Height.M />
         <div className={explication}>

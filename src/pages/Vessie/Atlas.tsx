@@ -92,7 +92,7 @@ const VessieAtlas = () => {
           <Link to="urinaire" className={linkStyle}>
             Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Alas vessie
+          / Atlas vessie
         </div>
         <Spacing.Height.M />
         <div className={explication}>
