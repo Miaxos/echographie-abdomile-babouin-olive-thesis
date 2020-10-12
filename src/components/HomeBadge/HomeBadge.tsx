@@ -30,6 +30,7 @@ const badgeTitle = css`
 `;
 const badgeSubTitle = css`
   maring-top: 4px;
+  font-size: 15px;
 `;
 
 const resetButton = css`

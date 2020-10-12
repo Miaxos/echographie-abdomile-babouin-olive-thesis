@@ -5,7 +5,7 @@ import HomeBadge from '../HomeBadge/HomeBadge';
 // @ts-ignore
 import reins from '../../assets/reins.png';
 // @ts-ignore
-import abdomen from '../../assets/abdomen.png';
+// import abdomen from '../../assets/abdomen.png';
 // @ts-ignore
 import extra from '../../assets/extra_digestif.png';
 // @ts-ignore
@@ -49,12 +49,13 @@ const HomePrez = () => {
         majeur d’aide au diagnostic des vétérinaires de zoos ou de centre de
         recherche.
       </p>
+      {/*
       <HomeBadge
         title="Abdomen complet"
         subtitle="Machin truc much"
         image={abdomen}
         to="abdomen"
-      />
+      /> */}
       <HomeBadge
         title="Appareil urinaire et ses annexes"
         subtitle="Examen échographique des reins, de la vessie, et des glandes surrénales"
