@@ -22,6 +22,8 @@ import PancreasVideo from './pages/Pancreas/Video';
 import PancreasData from './pages/Pancreas/Data';
 import RateVideo from './pages/Rate/Video';
 import RateData from './pages/Rate/Data';
+import FoieVideo from './pages/Foie/Video';
+import FoieData from './pages/Foie/Data';
 
 function App() {
   return (
@@ -82,6 +84,12 @@ function App() {
         </Route>
         <Route path="/extradigestif/pancreas/data">
           <PancreasData />
+        </Route>
+        <Route path="/extradigestif/foie/video">
+          <FoieVideo />
+        </Route>
+        <Route path="/extradigestif/foie/data">
+          <FoieData />
         </Route>
         <Route path="/extradigestif">
           <ExtraDigestif />
