@@ -78,7 +78,7 @@ const PancreasVideo = () => {
           </Link>{' '}
           /{' '}
           <Link to="/extradigestif" className={linkStyle}>
-            Examing échographique de l'appareil extra-digestif du babouin olive
+            Examen échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
           / Vidéo pancréas
         </div>

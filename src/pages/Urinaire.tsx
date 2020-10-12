@@ -86,7 +86,7 @@ const Urinaire = () => {
           <Link to="/" className={linkStyle}>
             Accueil
           </Link>{' '}
-          / Examing échographique de l'appareil urinaire du babouin olive
+          / Examen échographique de l'appareil urinaire du babouin olive
         </div>
         <Spacing.Height.S />
         <div className={grid}>

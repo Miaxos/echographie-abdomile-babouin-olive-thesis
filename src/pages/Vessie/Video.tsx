@@ -78,7 +78,7 @@ const VessieVideo = () => {
           </Link>{' '}
           /{' '}
           <Link to="urinaire" className={linkStyle}>
-            Examing échographique de l'appareil urinaire du babouin olive
+            Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
           / Vidéo vessie
         </div>
