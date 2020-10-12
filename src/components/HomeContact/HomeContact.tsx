@@ -81,7 +81,7 @@ const HomeContact = () => {
       />
 
       <Contact
-        name="Romain Lacoste"
+        name="Dr. Romain Lacoste"
         title="DMV"
         subtitle="Directeur - Station de Primatologie - CNRS"
         mail="romain.lacoste@primato.cnrs.fr"

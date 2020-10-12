@@ -56,32 +56,32 @@ const HomePrez = () => {
         to="abdomen"
       />
       <HomeBadge
-        title="Appareil urinaire et glandes surrénales"
-        subtitle="Examen échographique de l'appareil urinaire"
+        title="Appareil urinaire et ses annexes"
+        subtitle="Examen échographique des reins, de la vessie, et des glandes surrénales"
         image={reins}
         to="urinaire"
       />
       <HomeBadge
         title="Appareil extra-digestif"
-        subtitle="machin"
+        subtitle="Examen échographique de la rate, du pancréas et du foie"
         image={extra}
         to="extradigestif"
       />
       <HomeBadge
         title="Appareil digestif"
-        subtitle="machin"
+        subtitle="Examen échographique de l'estomac, du duodénum, du jéjuno-iléon, du caecum et du côlon"
         image={digestif}
         to="urinaire"
       />
       <HomeBadge
         title="Appareil génital mâle"
-        subtitle="blbl"
+        subtitle="Examen échographique des testicules, de la prostate et des vésicules séminales"
         image={agm}
         to="urinaire"
       />
       <HomeBadge
         title="Appareil génital femelle"
-        subtitle="delkerlfekjr"
+        subtitle="Examen échographique de l'utérus et des ovaires"
         image={agf}
         to="urinaire"
       />
