@@ -72,19 +72,19 @@ const HomePrez = () => {
         title="Appareil digestif"
         subtitle="Examen échographique de l'estomac, du duodénum, du jéjuno-iléon, du caecum et du côlon"
         image={digestif}
-        to="urinaire"
+        to="digestif"
       />
       <HomeBadge
         title="Appareil génital mâle"
         subtitle="Examen échographique des testicules, de la prostate et des vésicules séminales"
         image={agm}
-        to="urinaire"
+        to="genital_male"
       />
       <HomeBadge
         title="Appareil génital femelle"
         subtitle="Examen échographique de l'utérus et des ovaires"
         image={agf}
-        to="urinaire"
+        to="genital_femelle"
       />
     </div>
   );

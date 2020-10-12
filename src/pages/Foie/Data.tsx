@@ -192,8 +192,8 @@ const FoieData = () => {
             <li>
               Les mesures des diamètres de la veine porte et de la veine cave
               caudale ont été effectuées au niveau de la porte du foie, en coupe
-              longitudinale (cf. Figure 61). Ce type de coupe expose l’opérateur
-              à un risque de sous-estimations des diamètres vasculaires.{' '}
+              longitudinale. Ce type de coupe expose l’opérateur à un risque de
+              sous-estimations des diamètres vasculaires.{' '}
             </li>
             <li>
               La veine hépatique médiale a quant à elle été mesurée au niveau de

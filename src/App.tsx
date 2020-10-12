@@ -24,6 +24,7 @@ import RateVideo from './pages/Rate/Video';
 import RateData from './pages/Rate/Data';
 import FoieVideo from './pages/Foie/Video';
 import FoieData from './pages/Foie/Data';
+import Digestif from './pages/Digestif';
 
 function App() {
   return (
@@ -93,6 +94,9 @@ function App() {
         </Route>
         <Route path="/extradigestif">
           <ExtraDigestif />
+        </Route>
+        <Route path="/digestif">
+          <Digestif />
         </Route>
         <Redirect from="/" to="/home" />
       </Switch>
