@@ -84,7 +84,7 @@ const FoieData = () => {
             Accueil
           </Link>{' '}
           /{' '}
-          <Link to="urinaire" className={linkStyle}>
+          <Link to="extradigestif" className={linkStyle}>
             Examen échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
           / Données échographique du foie

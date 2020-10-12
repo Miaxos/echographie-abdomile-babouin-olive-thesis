@@ -25,6 +25,16 @@ import RateData from './pages/Rate/Data';
 import FoieVideo from './pages/Foie/Video';
 import FoieData from './pages/Foie/Data';
 import Digestif from './pages/Digestif';
+import EstomacVideo from './pages/Estomac/Video';
+import EstomacData from './pages/Estomac/Data';
+import DuodenumVideo from './pages/Duodenum/Video';
+import DuodenumData from './pages/Duodenum/Data';
+import JejunoVideo from './pages/Jejuno/Video';
+import JejunoData from './pages/Jejuno/Data';
+import CaecumVideo from './pages/Caecum/Videos';
+import CaecumData from './pages/Caecum/Data';
+import ColonVideo from './pages/Colon/Video';
+import ColonData from './pages/Colon/Data';
 
 function App() {
   return (
@@ -94,6 +104,36 @@ function App() {
         </Route>
         <Route path="/extradigestif">
           <ExtraDigestif />
+        </Route>
+        <Route path="/digestif/estomac/video">
+          <EstomacVideo />
+        </Route>
+        <Route path="/digestif/estomac/data">
+          <EstomacData />
+        </Route>
+        <Route path="/digestif/duodenum/video">
+          <DuodenumVideo />
+        </Route>
+        <Route path="/digestif/duodenum/data">
+          <DuodenumData />
+        </Route>
+        <Route path="/digestif/jejejuno_ileon/video">
+          <JejunoVideo />
+        </Route>
+        <Route path="/digestif/jejejuno_ileon/data">
+          <JejunoData />
+        </Route>
+        <Route path="/digestif/caecum/video">
+          <CaecumVideo />
+        </Route>
+        <Route path="/digestif/caecum/data">
+          <CaecumData />
+        </Route>
+        <Route path="/digestif/colon/video">
+          <ColonVideo />
+        </Route>
+        <Route path="/digestif/colon/data">
+          <ColonData />
         </Route>
         <Route path="/digestif">
           <Digestif />

@@ -172,7 +172,7 @@ const Digestif = () => {
                   </Link>
                 </div>
 
-                <div className={titleSection}>Caecum</div>
+                <div className={titleSection}>Jonction iléocæcale et cæcum</div>
                 <div className={listSection}>
                   <Link
                     to="/digestif/caecum/video"
