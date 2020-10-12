@@ -135,7 +135,7 @@ const ReinsVideo = () => {
         <NextPrevLinks
           next={
             <Link to="/urinaire/reins/data" className={linkStyle}>
-              Données échographiques ->
+              Atlas ->
             </Link>
           }
         />

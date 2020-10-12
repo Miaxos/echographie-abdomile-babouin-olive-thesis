@@ -157,14 +157,6 @@ const Digestif = () => {
                 </div>
                 <div className={listSection}>
                   <Link
-                    to="/digestif/jejejuno_ileon/atlas"
-                    className={linkStyleWithEffect}
-                  >
-                    Atlas
-                  </Link>
-                </div>
-                <div className={listSection}>
-                  <Link
                     to="/digestif/jejejuno_ileon/data"
                     className={linkStyleWithEffect}
                   >

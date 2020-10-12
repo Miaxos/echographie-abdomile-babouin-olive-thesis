@@ -172,14 +172,14 @@ const FoieData = () => {
           <h3>Comparaison d’échogénicité</h3>
           <ul>
             <li>
-              La parenchyme hépatique est hypo- à isoéchogène par rapport au
-              cortex rénal droit adjacent.
+              Le parenchyme hépatique est hypoéchogène à isoéchogène par rapport
+              au cortex rénal droit adjacent.
             </li>
             <li>
               Les parois des vaisseaux portes apparaissent hyperéchogènes au
               sein du parenchyme, ce qui permet de les différencier des veines
               hépatiques. De plus, la vascularisation porte est ventrale tandis
-              que les veines hépatiques sont dorsales.{' '}
+              que les veines hépatiques sont dorsales.
             </li>
             <li>
               La paroi de la vésicule biliaire est hyperéchogène comparée au

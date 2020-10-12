@@ -35,6 +35,16 @@ import CaecumVideo from './pages/Caecum/Videos';
 import CaecumData from './pages/Caecum/Data';
 import ColonVideo from './pages/Colon/Video';
 import ColonData from './pages/Colon/Data';
+import ReinsAtlas from './pages/Reins/Atlas';
+import VessieAtlas from './pages/Vessie/Atlas';
+import GlandesAtlas from './pages/Glandes/Atlas';
+import RateAtlas from './pages/Rate/Atlas';
+import PancreasAtlas from './pages/Pancreas/Atlas';
+import FoieAtlas from './pages/Foie/Atlas';
+import EstomacAtlas from './pages/Estomac/Atlas';
+import DuodenumAtlas from './pages/Duodenum/Atlas';
+import CaecumAtlas from './pages/Caecum/Atlas';
+import ColonAtlas from './pages/Colon/Atlas';
 
 function App() {
   return (
@@ -69,17 +79,26 @@ function App() {
         <Route path="/urinaire/reins/data">
           <ReinsData />
         </Route>
+        <Route path="/urinaire/reins/atlas">
+          <ReinsAtlas />
+        </Route>
         <Route path="/urinaire/vessie/video">
           <VessieVideo />
         </Route>
         <Route path="/urinaire/vessie/data">
           <VessieData />
         </Route>
+        <Route path="/urinaire/vessie/atlas">
+          <VessieAtlas />
+        </Route>
         <Route path="/urinaire/glandes/video">
           <GlandesVideo />
         </Route>
         <Route path="/urinaire/glandes/data">
           <GlandesData />
+        </Route>
+        <Route path="/urinaire/glandes/atlas">
+          <GlandesAtlas />
         </Route>
         <Route path="/urinaire">
           <Urinaire />
@@ -90,17 +109,26 @@ function App() {
         <Route path="/extradigestif/rate/data">
           <RateData />
         </Route>
+        <Route path="/extradigestif/rate/atlas">
+          <RateAtlas />
+        </Route>
         <Route path="/extradigestif/pancreas/video">
           <PancreasVideo />
         </Route>
         <Route path="/extradigestif/pancreas/data">
           <PancreasData />
         </Route>
+        <Route path="/extradigestif/pancreas/atlas">
+          <PancreasAtlas />
+        </Route>
         <Route path="/extradigestif/foie/video">
           <FoieVideo />
         </Route>
         <Route path="/extradigestif/foie/data">
           <FoieData />
+        </Route>
+        <Route path="/extradigestif/foie/atlas">
+          <FoieAtlas />
         </Route>
         <Route path="/extradigestif">
           <ExtraDigestif />
@@ -111,11 +139,17 @@ function App() {
         <Route path="/digestif/estomac/data">
           <EstomacData />
         </Route>
+        <Route path="/digestif/estomac/atlas">
+          <EstomacAtlas />
+        </Route>
         <Route path="/digestif/duodenum/video">
           <DuodenumVideo />
         </Route>
         <Route path="/digestif/duodenum/data">
           <DuodenumData />
+        </Route>
+        <Route path="/digestif/duodenum/atlas">
+          <DuodenumAtlas />
         </Route>
         <Route path="/digestif/jejejuno_ileon/video">
           <JejunoVideo />
@@ -129,11 +163,17 @@ function App() {
         <Route path="/digestif/caecum/data">
           <CaecumData />
         </Route>
+        <Route path="/digestif/caecum/atlas">
+          <CaecumAtlas />
+        </Route>
         <Route path="/digestif/colon/video">
           <ColonVideo />
         </Route>
         <Route path="/digestif/colon/data">
           <ColonData />
+        </Route>
+        <Route path="/digestif/colon/atlas">
+          <ColonAtlas />
         </Route>
         <Route path="/digestif">
           <Digestif />
