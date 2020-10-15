@@ -1,48 +1,17 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title';
 import { Spacing } from '../../components/Spacing';
-
-const style = css`
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  padding: 20px;
-  padding-top: 60px;
-`;
-const content = css`
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  flex: 1;
-`;
-
-const explication = css`
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 5px;
-  border-radius: 5px;
-  flex: 1;
-`;
-
-const linkStyle = css`
-  color: #75052d;
-`;
-
-const ariane = css`
-  font-size: 12px;
-  margin-bottom: 5px;
-`;
-
-const paragraph = css`
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-`;
+import {
+  style,
+  content,
+  explication,
+  linkStyle,
+  ariane,
+  paragraph,
+} from '../../styles/images';
+import { MesureDigShared } from '../Estomac/Data';
+import NextPrevLinks from '../../components/NextPrevLinks';
 
 const CaecumData = () => {
   return (
@@ -74,16 +43,24 @@ const CaecumData = () => {
           </p>
           <p className={paragraph}>
             La jonction caeco-colique se présente sous la forme d’une
-            constriction : le sphincter caeco- colique. Elle présente une
+            constriction : le sphincter caeco-colique. Elle présente une
             apparence similaire aux images échographiques obtenues chez les
-            carnivores domestiques, c’est- à-dire grossièrement en forme de
+            carnivores domestiques, c’est-à-dire grossièrement en forme de
             fleur.
           </p>
           <p className={paragraph}>
             Les nœuds lymphatiques iléo-caecaux sont observés aux alentours de
             la jonction iléocæcale.
           </p>
+          <MesureDigShared />
         </div>
+        <NextPrevLinks
+          prev={
+            <Link to="/digestif/caecum/atlas" className={linkStyle}>
+              {'<- Atlas'}
+            </Link>
+          }
+        />
       </div>
     </div>
   );

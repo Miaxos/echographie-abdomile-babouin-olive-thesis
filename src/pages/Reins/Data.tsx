@@ -1,6 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title';
 import { Spacing } from '../../components/Spacing';
@@ -12,49 +10,16 @@ import mesurereins2 from '../../assets/mesurereins2.png';
 import mesurereins3 from '../../assets/mesurereins3.png';
 // @ts-ignore
 import mesurereins4 from '../../assets/mesurereins4.png';
-
-const style = css`
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  padding: 20px;
-  padding-top: 60px;
-`;
-const content = css`
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  flex: 1;
-`;
-
-const imageMesure = css`
-  width: 100%;
-  border: 2px solid #75052d;
-  border-radius: 5px;
-`;
-
-const explication = css`
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 5px;
-  border-radius: 5px;
-  flex: 1;
-`;
-
-const linkStyle = css`
-  color: #75052d;
-`;
-
-const ariane = css`
-  font-size: 12px;
-  margin-bottom: 5px;
-`;
-
-const imageContainer = css`
-  margin: 10px;
-`;
+import {
+  imageContainer,
+  imageMesure,
+  style,
+  content,
+  explication,
+  linkStyle,
+  ariane,
+} from '../../styles/images';
+import NextPrevLinks from '../../components/NextPrevLinks';
 
 const ImageWithLegend = ({ src, label }: { src: string; label?: string }) => (
   <div className={imageContainer}>
@@ -133,10 +98,13 @@ const ReinsData = () => {
               La corticale rénale est hyperéchogène par rapport à la medulla,
               avec une échostructure finement granuleuse
             </li>
-            <li>Le cortex rénal gauche est hypo- à isoéchogène à la rate</li>
             <li>
-              Le cortex rénal droit est hyper- à isoéchogène au parenchyme
-              hépatique
+              Le cortex rénal gauche est hypoéchogène à isoéchogène par rapport
+              à la rate
+            </li>
+            <li>
+              Le cortex rénal droit est hyperéchogène à isoéchogène par rapport
+              au parenchyme hépatique
             </li>
             <li>
               Sinus rénal fortement hyperéchogène et médial, en forme de Y en
@@ -150,6 +118,13 @@ const ReinsData = () => {
           <ImageWithLegend src={mesurereins3} />
           <ImageWithLegend src={mesurereins4} />
         </div>
+        <NextPrevLinks
+          prev={
+            <Link to="/urinaire/reins/atlas" className={linkStyle}>
+              {'<- Atlas'}
+            </Link>
+          }
+        />
       </div>
     </div>
   );

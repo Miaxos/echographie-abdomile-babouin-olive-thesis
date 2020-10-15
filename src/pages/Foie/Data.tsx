@@ -1,6 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title';
 import { Spacing } from '../../components/Spacing';
@@ -10,55 +8,17 @@ import mesurefoie1 from '../../assets/mesurefoie1.png';
 import mesurefoie2 from '../../assets/mesurefoie2.png';
 // @ts-ignore
 import mesurefoie3 from '../../assets/mesurefoie3.png';
-
-const style = css`
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  padding: 20px;
-  padding-top: 60px;
-`;
-const content = css`
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  flex: 1;
-`;
-
-const imageMesure = css`
-  width: 100%;
-  border: 2px solid #75052d;
-  border-radius: 5px;
-`;
-
-const explication = css`
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 5px;
-  border-radius: 5px;
-  flex: 1;
-`;
-
-const linkStyle = css`
-  color: #75052d;
-`;
-
-const ariane = css`
-  font-size: 12px;
-  margin-bottom: 5px;
-`;
-
-const imageContainer = css`
-  margin: 10px;
-`;
-
-const paragraph = css`
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-`;
+import {
+  imageContainer,
+  imageMesure,
+  style,
+  content,
+  explication,
+  linkStyle,
+  ariane,
+  paragraph,
+} from '../../styles/images';
+import NextPrevLinks from '../../components/NextPrevLinks';
 
 const ImageWithLegend = ({ src, label }: { src: string; label?: string }) => (
   <div className={imageContainer}>
@@ -207,6 +167,13 @@ const FoieData = () => {
           <ImageWithLegend src={mesurefoie2} />
           <ImageWithLegend src={mesurefoie3} />
         </div>
+        <NextPrevLinks
+          prev={
+            <Link to="/extradigestif/foie/atlas" className={linkStyle}>
+              {'<- Atlas'}
+            </Link>
+          }
+        />
       </div>
     </div>
   );

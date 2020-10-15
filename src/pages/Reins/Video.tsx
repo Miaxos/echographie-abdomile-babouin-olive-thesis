@@ -1,68 +1,18 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { css } from 'linaria';
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title';
 import { Spacing } from '../../components/Spacing';
 import NextPrevLinks from '../../components/NextPrevLinks';
-
-const style = css`
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  padding: 20px;
-  padding-top: 60px;
-`;
-const content = css`
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-`;
-
-const grid = css`
-  display: flex;
-  flex-direction: row;
-  max-width: 1000px;
-  background-color: #f5f5f5;
-  border-radius: 5px;
-  justify-content: center;
-  align-items: center;
-`;
-
-const remarque = css`
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 5px;
-  border-radius: 5px;
-  justify-content: center;
-  align-items: center;
-`;
-
-const explication = css`
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 5px;
-  border-radius: 5px;
-`;
-
-const paragraph = css`
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-`;
-
-const linkStyle = css`
-  color: #75052d;
-`;
-
-const ariane = css`
-  font-size: 12px;
-  margin-bottom: 5px;
-`;
+import {
+  style,
+  content,
+  explication,
+  linkStyle,
+  ariane,
+  remarque,
+  grid,
+  paragraph,
+} from '../../styles/images';
 
 const ReinsVideo = () => {
   return (
@@ -134,7 +84,7 @@ const ReinsVideo = () => {
         </div>
         <NextPrevLinks
           next={
-            <Link to="/urinaire/reins/data" className={linkStyle}>
+            <Link to="/urinaire/reins/atlas" className={linkStyle}>
               Atlas ->
             </Link>
           }
