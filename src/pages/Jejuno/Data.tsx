@@ -60,7 +60,7 @@ const JejunoData = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Données échographique du jéjuno-iléon
+          / Données échographiques du jéjuno-iléon
         </div>
         <Spacing.Height.M />
         <div className={explication}>

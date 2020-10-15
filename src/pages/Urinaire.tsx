@@ -116,7 +116,7 @@ const Urinaire = () => {
                     to="/urinaire/reins/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -142,11 +142,11 @@ const Urinaire = () => {
                     to="/urinaire/vessie/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
-                <div className={titleSection}>Glande surénales</div>
+                <div className={titleSection}>Glandes surrénales</div>
                 <div className={listSection}>
                   <Link
                     to="/urinaire/glandes/video"
@@ -168,7 +168,7 @@ const Urinaire = () => {
                     to="/urinaire/glandes/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
               </div>

@@ -83,7 +83,7 @@ const GlandesData = () => {
           <Link to="urinaire" className={linkStyle}>
             Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Données échographique des glandes surrénales
+          / Données échographiques des glandes surrénales
         </div>
         <Spacing.Height.M />
         <div className={explication}>

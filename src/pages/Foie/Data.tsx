@@ -87,7 +87,7 @@ const FoieData = () => {
           <Link to="extradigestif" className={linkStyle}>
             Examen échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
-          / Données échographique du foie
+          / Données échographiques du foie
         </div>
         <Spacing.Height.M />
         <div className={explication}>

@@ -106,7 +106,7 @@ const VessieAtlas = () => {
           }
           next={
             <Link to="/urinaire/vessie/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

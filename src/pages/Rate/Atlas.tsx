@@ -106,7 +106,7 @@ const RateAtlas = () => {
           }
           next={
             <Link to="/extradigestif/rate/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

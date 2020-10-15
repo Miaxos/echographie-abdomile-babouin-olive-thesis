@@ -106,7 +106,7 @@ const GlandesAtlas = () => {
           }
           next={
             <Link to="/urinaire/glandes/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

@@ -60,7 +60,7 @@ const CaecumData = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Données échographique de la jonction iléocæcale et cæcum
+          / Données échographiques de la jonction iléocæcale et cæcum
         </div>
         <Spacing.Height.M />
         <div className={explication}>

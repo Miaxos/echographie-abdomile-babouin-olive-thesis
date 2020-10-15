@@ -106,7 +106,7 @@ const CaecumAtlas = () => {
           }
           next={
             <Link to="/digestif/caecum/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

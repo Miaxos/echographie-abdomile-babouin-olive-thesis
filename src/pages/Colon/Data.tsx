@@ -60,7 +60,7 @@ const ColonData = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Données échographique du côlon
+          / Données échographiques du côlon
         </div>
         <Spacing.Height.M />
         <div className={explication}>

@@ -106,7 +106,7 @@ const EstomacAtlas = () => {
           }
           next={
             <Link to="/digestif/estomac/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

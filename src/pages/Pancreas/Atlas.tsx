@@ -106,7 +106,7 @@ const PancreasAtlas = () => {
           }
           next={
             <Link to="/extradigestif/pancreas/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

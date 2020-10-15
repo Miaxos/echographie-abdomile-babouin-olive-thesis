@@ -83,7 +83,7 @@ const EstomacData = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Données échographique de l'estomac
+          / Données échographiques de l'estomac
         </div>
         <Spacing.Height.M />
         <div className={explication}>

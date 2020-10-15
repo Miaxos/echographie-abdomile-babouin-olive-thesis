@@ -83,7 +83,7 @@ const ReinsData = () => {
           <Link to="urinaire" className={linkStyle}>
             Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Données échographique des reins
+          / Données échographiques des reins
         </div>
         <Spacing.Height.M />
         <div className={explication}>

@@ -60,7 +60,7 @@ const DuodenumData = () => {
           <Link to="digestif" className={linkStyle}>
             Examen échographique de l'appareil digestif du babouin olive
           </Link>{' '}
-          / Données échographique du duodénum
+          / Données échographiques du duodénum
         </div>
         <Spacing.Height.M />
         <div className={explication}>

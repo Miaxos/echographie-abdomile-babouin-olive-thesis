@@ -77,7 +77,7 @@ const VessieData = () => {
           <Link to="urinaire" className={linkStyle}>
             Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Données échographique de la vessie
+          / Données échographiques de la vessie
         </div>
         <Spacing.Height.M />
         <div className={explication}>

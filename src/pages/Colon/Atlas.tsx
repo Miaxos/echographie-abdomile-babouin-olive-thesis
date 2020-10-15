@@ -106,7 +106,7 @@ const ColonAtlas = () => {
           }
           next={
             <Link to="/digestif/colon/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

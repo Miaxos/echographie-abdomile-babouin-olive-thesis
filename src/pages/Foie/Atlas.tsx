@@ -106,7 +106,7 @@ const FoieAtlas = () => {
           }
           next={
             <Link to="/extradigestif/foie/data" className={linkStyle}>
-              {'Donnée échographique ->'}
+              {'Données échographiques ->'}
             </Link>
           }
         />

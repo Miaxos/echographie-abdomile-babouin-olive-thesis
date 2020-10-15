@@ -60,7 +60,7 @@ const PancreasData = () => {
           <Link to="/extradigestif" className={linkStyle}>
             Examen échographique de l'appareil extra-digestif du babouin olive
           </Link>{' '}
-          / Données échographique du pancréas
+          / Données échographiques du pancréas
         </div>
         <Spacing.Height.M />
         <div className={explication}>

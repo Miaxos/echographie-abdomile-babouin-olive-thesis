@@ -80,7 +80,7 @@ const GlandesVideo = () => {
           <Link to="urinaire" className={linkStyle}>
             Examen échographique de l'appareil urinaire du babouin olive
           </Link>{' '}
-          / Vidéo glandes surénales
+          / Vidéo glandes surrénales
         </div>
         <Spacing.Height.S />
         <div className={remarque}>

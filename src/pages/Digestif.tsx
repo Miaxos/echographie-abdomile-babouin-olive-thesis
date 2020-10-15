@@ -116,7 +116,7 @@ const Digestif = () => {
                     to="/digestif/estomac/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -142,7 +142,7 @@ const Digestif = () => {
                     to="/digestif/duodenum/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -160,7 +160,7 @@ const Digestif = () => {
                     to="/digestif/jejejuno_ileon/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -186,7 +186,7 @@ const Digestif = () => {
                     to="/digestif/caecum/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -212,7 +212,7 @@ const Digestif = () => {
                     to="/digestif/colon/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
               </div>
