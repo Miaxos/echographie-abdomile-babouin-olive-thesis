@@ -29,7 +29,6 @@ export const explication = css`
   background-color: #f5f5f5;
   padding: 5px;
   border-radius: 5px;
-  flex: 1;
   padding: 20px;
 `;
 
