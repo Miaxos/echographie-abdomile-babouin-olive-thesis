@@ -10,7 +10,7 @@
 
 # production
 /build/*
-!/build/_redirects
+!/build/netifly.toml
 
 # misc
 .DS_Store
