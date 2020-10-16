@@ -116,7 +116,7 @@ const ExtraDigestif = () => {
                     to="/extradigestif/rate/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -142,7 +142,7 @@ const ExtraDigestif = () => {
                     to="/extradigestif/pancreas/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
 
@@ -168,7 +168,7 @@ const ExtraDigestif = () => {
                     to="/extradigestif/foie/data"
                     className={linkStyleWithEffect}
                   >
-                    Données échographique
+                    Données échographiques
                   </Link>
                 </div>
               </div>
